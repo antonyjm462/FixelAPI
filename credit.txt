@@ -1,0 +1,24 @@
+export const environment = {
+  production: true,
+  firebase: {
+    apiKey: "AIzaSyBjiZSPBgIuHWoFYNE26KDGZ8ews1xSayI",
+    authDomain: "fixel-project.firebaseapp.com",
+    databaseURL: "https://fixel-project.firebaseio.com",
+    projectId: "fixel-project",
+    storageBucket: "fixel-project.appspot.com",
+    messagingSenderId: "1096335909006",
+    appId: "1:1096335909006:web:3013a54f0a1a635f6429df",
+    measurementId: "G-3GM7P4MMG8"
+  }
+};
+
+
+https://us-central1-fixel-project.cloudfunctions.net/addData?data={"user":"antony","after_data":"new_base64"}  //django add data after convertion
+
+https://us-central1-fixel-project.cloudfunctions.net/getData?data={"user":"antony"}   //django get input
+
+https://us-central1-fixel-project.cloudfunctions.net/getOutput?data={"user":"antony"}  //app get output
+
+https://us-central1-fixel-project.cloudfunctions.net/setUser?user=antony  //setuser by app
+
+https://us-central1-fixel-project.cloudfunctions.net/getUser //getuser by django
